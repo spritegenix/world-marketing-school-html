@@ -83,7 +83,9 @@
 
 }
 
-
+.oranges{
+color: #FFAA17;
+}
 
 body {
   margin: 0px;
@@ -705,6 +707,7 @@ ol[type="1"] > li:not(:last-child) {
 .item_category_list {
   overflow: hidden;
   border-radius: 8px;
+ 
 }
 .item_category_list a {
   display: block;
@@ -722,11 +725,11 @@ ol[type="1"] > li:not(:last-child) {
 }
 
 .meta_info_list {
-  margin: -2px -6px;
+  margin: -2px -4px;
 }
 .meta_info_list > li {
   font-size: 14px;
-  padding: 2px 6px;
+  padding: 2px 5px;
   line-height: 20px;
 }
 .meta_info_list span {
@@ -2916,6 +2919,10 @@ blockquote p {
   padding-bottom: 10px;
 }
 .blog_item .item_image {
+ 
+  overflow: hidden;
+  border-radius: 1rem;
+  aspect-ratio: 16/9;
   margin-bottom: 15px;
 }
 .blog_item .item_image > a {
@@ -2925,6 +2932,8 @@ blockquote p {
   position: relative;
 }
 .blog_item .item_image > a img {
+  height: 100%;
+  width: 100%;
   -webkit-transition: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
   transition: 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }

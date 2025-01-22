@@ -6,7 +6,7 @@ window.onload = function () {
           <div class="container">
             <div class="newslatter_box" style="background-image: url('assets/images/shape/shape_img_6.svg');">
               <div class="row justify-content-center">
-                <div class="col col-lg-6">
+                <div class="col col-lg-8">
                   <div class="section_heading text-center">
                     <h2 class="heading_text text-white">
                       Subscribe Now for Exclusive Updates and Offers
@@ -40,15 +40,15 @@ window.onload = function () {
             <div class="row">
               <div class="col col-lg-3 col-md-6 col-sm-6">
                 <div class="footer_widget">
-                  <div class="site_logo">
+                  <div class="site_logo ">
                     <a class="site_link" href="index.html">
-                      <img src="assets/images/logo.png" alt="Collab - Online Learning Platform">
+                      <img src="assets/images/logo.png" width="80%"  alt="Collab - Online Learning Platform">
                     </a>
                   </div>
-                  <p>
-                    At World Marketing School, we empower individuals with the skills and knowledge needed to excel in the digital age through innovative courses in Digital Marketing, Programming, and Graphic Design.
+                  <p class="mb-2">
+                   At World Marketing School, we empower individuals to excel in the digital age with innovative courses in Digital Marketing, Programming, and Graphic Design.
                   </p>
-                  <ul class="d-lg-none social_links unordered_list">
+                  <ul class=" social_links unordered_list">
                     <li>
                       <a href="#!"><i class="fab fa-facebook-f"></i></a>
                     </li>
@@ -152,7 +152,7 @@ window.onload = function () {
                     </div>
                   </div>
                 </div>
-                <ul class="d-none social_links unordered_list d-lg-flex justify-content-center pt-lg-5 gap-5">
+                <ul class="d-none social_links unordered_list  justify-content-center pt-lg-2 gap-5">
                   <li>
                     <a href="#!"><i class="fab fa-facebook-f"></i></a>
                   </li>
@@ -173,7 +173,7 @@ window.onload = function () {
                   <ul class="blog_small_group unordered_list_block">
                   
                     <li>
-                      <a class="blog_small" href="the-best-programming-languages-to-learn%20in-2025.html">
+                      <a class="blog_small" href="blogs/the-best-programming-languages-to-learn%20in-2025.html">
                         <span class="item_image">
                           <img src="assets/images/blog/learn_programming_languages.webp" alt="Programming Blog">
                         </span>
@@ -185,7 +185,7 @@ window.onload = function () {
                       </a>
                     </li>
                       <li>
-                      <a class="blog_small" href="top-digital-marketing-tips-to-boost-your-business.html">
+                      <a class="blog_small" href="blogs/top-digital-marketing-tips-to-boost-your-business.html">
                         <span class="item_image">
                           <img src="assets/images/blog/digital_marketing_tips.webp" alt="Digital Marketing Blog">
                         </span>
@@ -203,10 +203,10 @@ window.onload = function () {
             </div>
           </div>
         </div>
-        <div class="copyright_widget">
+        <div class="copyright_widget mt-3">
           <div class="container">
             <p class="copyright_text text-center mb-0">
-              <a href="#!">World Marketing School</a> © 2024. All Rights Reserved.
+              All Rights Reserved.Copyrights © 2025 World Marketing School. All rights reserved. Designed and Developed by <a href="https://www.spritegenix.com/" style="color: #FFAA17">Sprite Genix</a>
             </p>
           </div>
         </div>
